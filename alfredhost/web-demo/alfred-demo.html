@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" src="alfred.js"></script>
+<title>Serbian Smart Card Reader</title>
+
+<style type="text/css">
+body {
+   font-family: sans-serif;
+   padding: 30px;
+}
+#eid {
+   width: 640px;
+   height: 320px;
+   margin: 0 auto;
+   border: 1px solid #ccc;
+   border-radius: 25px;
+   box-shadow: 3px 3px 3px #ccc;
+   overflow: hidden;
+}
+
+#eid2 {
+  width: 220px;
+  height: 120px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px #ccc;
+  overflow: hidden;
+  padding: 10px;
+  padding-left: 60px;
+}
+
+#eid h1 {
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+   color: #333;
+   font-size: 18pt;
+}
+#eid h1, #eid small {
+    padding: 10px;
+    padding-left: 260px;
+    word-wrap: break-word;
+}
+#eid small {
+    color: #aaa;
+    font-size: 8pt;
+    display: block;
+}
+#eid img {
+   float: left;
+}
+
+
+</style>
+</head>
+
+
+
+<body>
+
+<div id="eid">
+  <img id="photo" />
+  <h1 id="name"></h1>
+  <small id="info">
+
+    <table style="width:70%">
+      <tr>
+        <td width="30%">JMBG</td>
+        <td><div id="jmbg"> </div></td>
+      </tr>
+      <tr>
+        <td>Prebivalište</td>
+        <td> <div id="prebivaliste"></div></td>
+      </tr>
+      <tr>
+        <td>Datum rođenja</td>
+        <td><div id="datumRodjenja"></div></td>
+      </tr>
+      <tr>
+        <td>Mesto rođenja</td>
+        <td><div id="mestoRodjenja"></div></td>
+      </tr>
+      <tr>
+        <td>Broj dokumenta</td>
+        <td><div id="brojDokumenta"></div></td>
+      </tr>
+      <tr>
+        <td>Izdato</td>
+        <td> <div id="izdato"></div></td>
+      </tr>
+      <tr>
+        <td>Važi do</td>
+        <td><div id="vaziDo"></div></td>
+      </tr>
+      <tr>
+        <td>Izdaje</td>
+        <td><div id="izdaje"></div></td>
+      </tr>
+    </table>
+  </small>
+</div>
+
+<br>
+<div id="eid2">
+<form>
+  Puno ime:<br>
+  <input type="text" id="firstname" name="firstname">
+  <br>
+  Izdaje:<br>
+  <input type="text" id="izdaje2" name="lastname">
+  <br>
+  <br>
+</form>
+
+  <button onclick="alfredPleaseGetCardData()">Read eID card information</button>
+
+</div>
+
+</body>
+</html>

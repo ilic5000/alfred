@@ -1,0 +1,12 @@
+{
+  "name": "pmf.ni.ac.rs.alfredhost",
+  "description": "JFreesteel based extension for accessing Serbian eID",
+  "path": "C://Users//Nelex//Desktop//alfred//alfredhost//dist//scripts//startAlfred.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://mkcoknamhhgkchbaebmldfdeejfkjhbk/"
+  ],
+  "allowed_extensions": [
+    "alfredhost@pmf.ni.ac.rs"
+  ]
+}

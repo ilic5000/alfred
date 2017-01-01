@@ -1,0 +1,3 @@
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\Software\Google\Chrome\NativeMessagingHosts\pmf.ni.ac.rs.alfredhost]
+@="C:\\Users\\Nelex\\Desktop\\alfred\\alfredhost\\dist\\pmf.ni.ac.rs.alfredhost.json"

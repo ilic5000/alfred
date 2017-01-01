@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alfred.iml" filepath="$PROJECT_DIR$/alfred.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alfredJSlibrary/alfredJSlibrary.iml" filepath="$PROJECT_DIR$/alfredJSlibrary/alfredJSlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alfredhost/alfredhost.iml" filepath="$PROJECT_DIR$/alfredhost/alfredhost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jfreesteel/jfreesteel.iml" filepath="$PROJECT_DIR$/jfreesteel/jfreesteel.iml" />
+    </modules>
+  </component>
+</project>
