@@ -264,7 +264,7 @@ function startSmartCartListener(){
     window.addEventListener("message", addEventCardReadFromHostApp);
 }
 
-function addEventCardReadFromHostApp(){
+function addEventCardReadFromHostApp(event){
 
     var message = event.data;
 

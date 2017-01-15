@@ -11,20 +11,20 @@
 
 //TEMPLATE:
 // "INFORMACIJE KOJE CE BITI UPISANE" : ["id  polja gde treba da budu upisane","id drugog polja gde treba da budu upisane",...],
-var HowToFillFieldsMap={ 
+var HowToFillFieldsMap={
 
-     "PUNO_IME":[],
-     "JMBG":[],
-     "PREBIVALISTE":[],
-     "DATUM_RODJENJA":[],
-	 "MESTO_RODJENJA":[],
-	 "BROJ_DOKUMENTA":[],
-	 "IZDATO":[],
-	 "VAZI_DO":[],
-	 "IZDAJE":[],
-	 "SLIKA_BASE64_DECODED":[],
-	 "SLIKA_BASE64_ENCODED":[]
-	 
+	"PUNO_IME":[],
+	"JMBG":[],
+	"PREBIVALISTE":[],
+	"DATUM_RODJENJA":[],
+	"MESTO_RODJENJA":[],
+	"BROJ_DOKUMENTA":[],
+	"IZDATO":[],
+	"VAZI_DO":[],
+	"IZDAJE":[],
+	"SLIKA_BASE64_DECODED":[],
+	"SLIKA_BASE64_ENCODED":[]
+
 };
 
 //NOTE:
