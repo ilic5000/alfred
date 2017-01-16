@@ -13,7 +13,7 @@
 // "INFORMACIJE KOJE CE BITI UPISANE" : ["id  polja gde treba da budu upisane","id drugog polja gde treba da budu upisane",...],
 var HowToFillFieldsMap={
 
-	"PUNO_IME_CIRILICA":[], //ime + ime roditelja + prezime
+    "PUNO_IME_CIRILICA":[], //ime + ime roditelja + prezime
     "PUNO_IME_LATINICA":[],
     "IME_CIRILICA":[],
     "IME_LATINICA":[],
@@ -22,23 +22,23 @@ var HowToFillFieldsMap={
     "SREDNJE_IME_LATINICA":[],
     "DATUM_RODJENJA":[],
     "POL":[], // M ili Z
-	"JMBG":[],
-	"PREBIVALISTE":[],   //ulica + broj kuce + mesto + grad + drzava
+    "JMBG":[],
+    "PREBIVALISTE":[],   //ulica + broj kuce + mesto + grad + drzava
     "ULICA":[],
     "BROJ_STANA":[],
     "MESTO":[],
     "OPSTINA":[],
     "DRZAVA":[], // skracenica npr. SRB
-	"PUNO_MESTO_RODJENJA":[], // mesto + opstina + drzava
+    "PUNO_MESTO_RODJENJA":[], // mesto + opstina + drzava
     "MESTO_RODJENJA":[],
     "OPSTINA_RODJENJA":[],
     "DRZAVA_RODJENJA":[],
-	"BROJ_DOKUMENTA":[], //broj licne karte
-	"IZDATO":[],
-	"VAZI_DO":[],
-	"IZDAJE":[],
-	"SLIKA_BASE64_DECODED":[],
-	"SLIKA_BASE64_ENCODED":[]
+    "BROJ_DOKUMENTA":[], //broj licne karte
+    "IZDATO":[],
+    "VAZI_DO":[],
+    "IZDAJE":[],
+    "SLIKA_BASE64_DECODED":[],
+    "SLIKA_BASE64_ENCODED":[]
 
 };
 
